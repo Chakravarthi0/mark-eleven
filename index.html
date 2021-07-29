@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Is Your Birthday Lucky?</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <h1>Is your birthday lucky?</h1>
+
+
+        <h4>Scroll down to check out</h4>
+    </div>
+
+    <div id="secondary">
+        <div id="collapse">
+            <strong>Privacy Notice!</strong> We are not storing your data. <span id="closeBtn">X</span>
+        </div>
+    
+        <form id="bdayForm">
+            <h3>Select your Birthday</h3>
+            <input required type="date" name="bday" id="bDay">
+    
+            <br>
+    
+            <h3>Enter your Lucky Number</h3>
+    
+            <input required type="number" min="1" step="1" id="luckyNo">
+    
+            <br>
+    
+            <button type="submit" class="btn-primary" id="check">Check</button>
+        </form>
+    
+        <div id="result">
+            <div id="pass">
+                <h4>Yaaaay!!You are a lucky person!</h4>
+                <img src="assests/happy.gif" alt="sad">
+            </div>
+    
+            <div id="fail">
+                <h4>Oops!!Your birthday is not a lucky number!</h4>
+                <img src="assests/sad.gif" alt="happy">
+            </div>
+        </div>
+    </div>
+
+    <ul class="footer-list">
+        <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+                <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+
+    </ul>
+    <script src="main.js"></script>
+</body>
+
+</html>
